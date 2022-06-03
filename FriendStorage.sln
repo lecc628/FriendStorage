@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.UI", "FriendStorage.UI\FriendStorage.UI.csproj", "{BFB9FF08-8F74-4DDA-97BC-FB9946A2BA18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FriendStorage.UI", "FriendStorage.UI\FriendStorage.UI.csproj", "{BFB9FF08-8F74-4DDA-97BC-FB9946A2BA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendStorage.Model", "FriendStorage.Model\FriendStorage.Model.csproj", "{C4084C79-A9A9-469C-803A-983F910CE162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BFB9FF08-8F74-4DDA-97BC-FB9946A2BA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFB9FF08-8F74-4DDA-97BC-FB9946A2BA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFB9FF08-8F74-4DDA-97BC-FB9946A2BA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4084C79-A9A9-469C-803A-983F910CE162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4084C79-A9A9-469C-803A-983F910CE162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4084C79-A9A9-469C-803A-983F910CE162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4084C79-A9A9-469C-803A-983F910CE162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
