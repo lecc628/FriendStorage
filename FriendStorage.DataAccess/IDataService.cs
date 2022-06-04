@@ -7,12 +7,12 @@ namespace FriendStorage.DataAccess
 {
     public interface IDataService<Item> : IDisposable
     {
-        Task<Item> GetItemByIdAsync(int itemId);
+        Item GetItemById(int itemId);
 
-        Task SaveItemAsync(Item item);
+        IEnumerable<Item> GetAllItems();
 
-        Task DeleteItemAsync(int itemId);
+        void SaveItem(Item item);
 
-        Task<IEnumerable<Item>> GetAllItemsAsync();
+        void DeleteItem(int itemId);
     }
 }
