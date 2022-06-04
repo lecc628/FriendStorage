@@ -26,8 +26,8 @@
                                   StrokeThickness="2" Margin="3" Opacity="0" Stretch="None">
                                 <Path.Data>
                                     <GeometryGroup>
-                                        <LineGeometry StartPoint="0,0" EndPoint="16,16"/>
-                                        <LineGeometry StartPoint="0,16" EndPoint="16,0"/>
+                                        <LineGeometry StartPoint="0, 0" EndPoint="11.297, 11.297"/>
+                                        <LineGeometry StartPoint="0, 11.297" EndPoint="11.297, 0"/>
                                     </GeometryGroup>
                                 </Path.Data>
                             </Path>

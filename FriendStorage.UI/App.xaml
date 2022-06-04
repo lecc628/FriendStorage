@@ -7,6 +7,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <sys:Double x:Key="DefaultFontSize">18</sys:Double>
+            <sys:Double x:Key="CommonHeight">20</sys:Double>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Styles/Brushes.xaml"/>
                 <ResourceDictionary Source="/Styles/Button.xaml"/>
