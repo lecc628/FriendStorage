@@ -8,12 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="FriendStorageIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FriendStorage.DataAccess\FriendStorage.DataAccess.csproj" />
     <ProjectReference Include="..\FriendStorage.Model\FriendStorage.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="FriendStorageIcon.png" />
   </ItemGroup>
 
 </Project>
